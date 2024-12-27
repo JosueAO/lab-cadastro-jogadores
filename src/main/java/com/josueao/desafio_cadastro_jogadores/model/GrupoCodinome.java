@@ -6,20 +6,20 @@ public enum GrupoCodinome {
     LIGA_DA_JUSTICA("Liga da Justiça",
             "https://raw.githubusercontent.com/uolhost/test-backEnd-Java/master/referencias/liga_da_justica.xml");
 
-    private GrupoCodinome(String nome, String url) {
+    private GrupoCodinome(String nome, String uri) {
         this.nome = nome;
-        this.url = url;
+        this.uri = uri;
     }
 
     private final String nome;
-    private final String url;
+    private final String uri;
 
     public String getNome() {
         return nome;
     }
 
-    public String getUrl() {
-        return url;
+    public String getUri() {
+        return uri;
     }
 
 }
